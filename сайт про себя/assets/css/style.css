@@ -1,0 +1,69 @@
+body {
+    font-family: monospace;
+    background-image:  url('../image/fon1.jpg');
+}
+
+header { 
+    display: flex;
+    justify-content: center;
+    color: #bbbbbb;
+    gap: 35px;
+    font-size: 35px;
+    margin-top: 40px;
+}
+
+header a {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+header a.active {
+    color: 4716c4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main .block {
+    font-family: 10px monospace;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    width: 75%;
+    background: #4b4b4b;
+    border: 3px solid #4716c4;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    color: #fefefe;
+    font-size: 17px;
+}
+
+main .block .picture {
+    height: 400px;
+    width: 400px;
+}
+
+main .block .picture-myfamily {
+    height: 400px;
+}
+.links{
+	display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 35px;
+    margin-top: 40px;
+    padding: 500px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 5px monospace;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #fefefe;
+    
+}
